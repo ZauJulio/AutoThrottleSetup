@@ -8,6 +8,14 @@
 
 ---
 
+<img width="1962" height="1122" alt="image" src="https://github.com/user-attachments/assets/0305b1d0-46d3-481f-bc1f-a9b354eca344" />
+
+<div style="display: flex; justify-content: center; align-items: center; gap: 1%; width: 100%;">
+  <img width="49.7%" alt="image" src="https://github.com/user-attachments/assets/f04503cd-db3a-4365-97f2-7887e016da93" />
+  <img width="49.7%" alt="image" src="https://github.com/user-attachments/assets/91f55c23-fb1a-4222-ab89-54cbd872dd3b" />
+</div>
+---
+
 A lightweight, user-space orchestration tool for thermal and power management on Linux. It serves as a "ThrottleStop" alternative for Linux users, specifically tuned for Intel CPUs with Speed Shift (HWP) support or newer AMD processors.
 
 ## 📖 Technical Overview
@@ -26,9 +34,13 @@ This tool interfaces directly with the Linux kernel's `sysfs` to manage hardware
 
 ### Tip 👽
 
-Before running this tool, study your CPU's specifications to determine safe PL1/PL2 values. Use `lscpu` or `cpupower` to check supported frequencies and governors. Study your system's thermal limits to avoid overheating. Good starting points are often 60-70% of your CPU's TDP for PL1 and 90-100% for PL2.
+Before running this tool, study your CPU's specifications to determine safe PL1/PL2 values. Use `lscpu` or `cpupower` to check supported frequencies and governors. Study your system's thermal limits with `stress` tool to avoid overheating. Good starting points are often 60-70% of your CPU's TDP for PL1 and 90-100% for PL2.
 
 The most cpu's power consumption occurs at high frequencies under load. By capping the max frequency slightly below the peak, you can often achieve significant thermal and power savings with minimal performance impact.
+
+Remember to monitor temps and performance after applying new settings to ensure stability. A good thermal paste, VRM dissipation, proper airflow, and adequate cooling can make a significant difference in thermal management, so consider these factors as well. Clean your laptop's cooling system regularly to maintain optimal airflow.
+
+
 
 ## 🚀 Installation
 

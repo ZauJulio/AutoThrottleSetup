@@ -1,0 +1,33 @@
+{
+  "workbench.colorCustomizations": {
+    "commandCenter.border": "#e7e7e799",
+    "tab.activeBorder": "#b947df",
+    "titleBar.activeBackground": "#a424cf",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#a424cf99",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "peacock.color": "#a424cf",
+  "cSpell.words": [
+    "acpi",
+    "cpufreq",
+    "Inspiron",
+    "oneshot",
+    "pkgdesc",
+    "pkgdir",
+    "pkgname",
+    "pkgrel",
+    "pkgver",
+    "powercap",
+    "powersave",
+    "pstate",
+    "rapl",
+    "RAPL",
+    "Ryzen",
+    "ryzenadj",
+    "srcdir",
+    "stapm",
+    "sysfs",
+    "turbostat"
+  ]
+}

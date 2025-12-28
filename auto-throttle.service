@@ -1,0 +1,11 @@
+[Unit]
+Description=AutoThrottle Power & Thermal Config
+After=multi-user.target systemd-modules-load.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/auto-throttle
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target suspend.target hibernate.target

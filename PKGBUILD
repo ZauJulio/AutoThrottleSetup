@@ -1,6 +1,6 @@
 # Maintainer: ZauJulio <zaujulio.dev@gmail.com>
 pkgname=auto-throttle
-pkgver=1.0.0
+pkgver=1.0.1
 pkgrel=1
 pkgdesc="Lightweight thermal and power management orchestration for Linux"
 arch=('x86_64')
